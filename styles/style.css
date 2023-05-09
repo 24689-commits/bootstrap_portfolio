@@ -1,0 +1,37 @@
+.navbar-nav .nav-item .nav-link{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+.collapse navbar-collapse {
+    align-items: center;
+}
+.navbar-brand img{
+ border-radius: 50em;
+}
+.d-flex {
+    transform: translate(-70deg);
+    bottom:20%;
+    position: absolute;
+    left:35%;
+
+
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:  rgb(19, 19, 19);
+    color: antiquewhite;
+    height: 3rem;
+}
+.d-flex h1{
+    margin-right: 5rem;
+    margin-top: 3rem;
+
+}
+/* body{
+    background-color: darkgreen;
+} */
+
