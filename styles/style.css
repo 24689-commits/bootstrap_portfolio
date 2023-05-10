@@ -1,5 +1,8 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .navbar-nav .nav-item .nav-link{
     color: antiquewhite;
@@ -69,5 +72,107 @@ input[type=text], select, textarea {
 #subject:hover{
     color:red;
     transform: .4s;
+
+}
+
+.testimonial{
+    padding: 40px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    background: #f1f1f1;
+    color: 434343;
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2opx;
+
+}
+.border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto ;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.col{
+    flex:20%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+.testimonial{
+    background: #fff;
+    padding: 10px;
+    width: 100%;
+
+}
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+     
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:1200px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:960px) {
+    .col{
+        flex: 100%;
+        max-width: 80%;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+.textAB h1{
+    text-align: center;
+}
+.textAB h5{
+    text-align: center;
+}
+
+.body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 100;
+    padding: 35px 10%;
+
+}
+.rows{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
 
 }
