@@ -88,17 +88,17 @@ input[type=text], select, textarea {
 
 }
 .border{
-    width: 160px;
+    width: 260px;
     height: 5px;
     background: #6ab04c;
-    margin: 26px auto ;
-
+    margin: auto auto ;
+    transform:rotate(90deg) ;
 }
 
 .row{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap;
+    justify-content: center;  */
 
 }
 .col{
@@ -110,7 +110,7 @@ input[type=text], select, textarea {
 }
 .testimonial{
     background: #fff;
-    padding: 10px;
+    padding: 25px;
     width: 100%;
 
 }
@@ -175,12 +175,12 @@ input[type=text], select, textarea {
     padding: 35px 10%;
 
 }
-.row{
+/* .row{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
 
-}
+} */
 main.row{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -188,7 +188,7 @@ main.row{
 }
 .column header.title{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color: black;
     padding: 0px 0px 20px 30px;
 }
 .column .contents{
@@ -235,4 +235,53 @@ main.row{
     line-height: 1.2;
     color: #666;
     font-size: 17px;
+}
+/* .images{
+    display: flex;
+    justify-content: center;
+    
+} */
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px
+}
+.progress {
+    width: 100%!important;
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+    
+}
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+.skills{
+    display: inline;
+    justify-content: center;
+    align-self: center;
+}
+.progressB{
+display: flex!important;
+}
+h1 .tools{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.test-underline{
+    text-decoration: underline #11a372;
+}
+.work p{
+ text-align: center;
+ padding-top: 15px;
+ font-size: 30px;
+ font-weight: bold;
+ 
 }
