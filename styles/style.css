@@ -5,9 +5,13 @@
 }
 
 .navbar-nav .nav-item .nav-link{
-    color: antiquewhite;
-    display: flex;
-    align-items: center;
+    color:antiquewhite;
+    /* display: flex;
+    align-items: center; */
+    
+}
+.projects img{
+   height: 265px;
 }
 .collapse navbar-collapse {
     align-items: center;
@@ -19,13 +23,7 @@
 span{
     font-weight: bold;
 }
-.d-flex {
-    transform: translate(90deg);
-    bottom:25%;
-    position: absolute;
-    left:20%;
 
-}
 
 .d-flex h1{
     transform: translate(90deg);
@@ -38,7 +36,7 @@ h1 .pad{
 .d-flex img{
     transform: translate(75deg);
 }
-/* footer{
+footer{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -46,19 +44,22 @@ h1 .pad{
     background-color:  rgb(19, 19, 19);
     color: antiquewhite;
     height: 3rem;
-} */
+    margin-top: 50px;
 
-
+}
+.d-flex a{
+    background-color: #11a372;
+}
 /* footer */
-.footer{
+/* .main{
     position: absolute;
     bottom: 0;
     width: 100%;
     background:  rgb(19, 19, 19);
+    height: 50px;
 
 
-
-}
+} */
 .main-content{
     display: flex;
 }
@@ -119,7 +120,7 @@ input[type=text], select, textarea {
 }
 /* testimonial */
  .testimonials{
-    padding: 40px ;
+    /* padding-left: 20px ; */
     padding-bottom: 80px;
     text-align: center;
     background: #f1f1f1;
@@ -142,7 +143,7 @@ input[type=text], select, textarea {
     
 }
 
-.row{
+/* .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -154,7 +155,7 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     padding: 15px;
 
-}
+} */
 .testimonial{
     background: #fff;
     padding: 25px;
@@ -176,34 +177,6 @@ input[type=text], select, textarea {
 
 
 
-@media screen and (max-width:1200px) {
-    .col{
-        flex: 100%;
-        max-width: 100%;
-    }
-    
-}
-
-@media screen and (max-width:960px) {
-    .col{
-        flex: 100%;
-        max-width: 80%;
-    }
-    
-}
-@media screen and (max-width:600px) {
-    .col{
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .d-flex img{
-        max-width: 50%;
-        max-height: 50%;
-    }
-}
 .textAB h1{
     text-align: center;
     padding-top: 30px;
@@ -216,13 +189,24 @@ input[type=text], select, textarea {
     padding-right: 75px;
 }
 .textAB p{
-    padding-left:75px ;
-    padding-right: 75px;
+    padding-left:10px ;
+    padding-right: 10px;
 }
-
+.cm{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.me{
+    clip-path: circle();
+}
+.home{
+    background-color: antiquewhite;
+    border: none;
+}
 .body{
     width: 100%;
-    min-height: 100vh;
+    height: fit-content;
+    /* min-height: 100vh; */
     background-color: #fafafa;
     display: flex;
     justify-content: center;
@@ -234,7 +218,8 @@ input[type=text], select, textarea {
 .container{
     width: 100;
     padding: 35px 10%;
-
+    padding-top: 60px;
+    
 }
 /* .row{
   display: grid;
@@ -242,7 +227,7 @@ input[type=text], select, textarea {
   grid-column-gap: 20px;
 
 } */
-main.row{
+main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px; 
@@ -345,4 +330,38 @@ h1 .tools{
  font-weight: bold;
  
 }
+.card-body a{
+    background-color: #11a372;
+    border:2px solid black;
+    border-radius: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.container img{
+    width: 496px;
+    height: 400px;
+}
+
 /* project ends */
+
+@media screen and (max-width:300px) {
+    .navbar{
+        max-width: 100%;
+        max-height: 50%;
+       
+    }
+body{
+    padding: 10px;
+}
+}
+
+/* 300 and 700 */
+@media screen and (width < 700px){
+    /* .profile-img {
+        width: 100%!important;
+
+    }     */
+   
+
+} 
