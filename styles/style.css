@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 .navbar-nav .nav-item .nav-link{
     color:antiquewhite;
     /* display: flex;
@@ -22,6 +23,7 @@
 }
 span{
     font-weight: bold;
+    color: rgb(109, 146, 140);
 }
 
 
@@ -42,9 +44,11 @@ footer{
     width: 100%;
     text-align: center;
     background-color:  rgb(19, 19, 19);
-    color: antiquewhite;
-    height: 3rem;
-    margin-top: 50px;
+    color: white;
+    /* height: 4rem; */
+    /* margin-top: 50px; */
+    /* display: inline-flex; */
+    
 
 }
 .d-flex a{
@@ -121,11 +125,14 @@ input[type=text], select, textarea {
 /* testimonial */
  .testimonials{
     /* padding-left: 20px ; */
-    padding-bottom: 80px;
+    padding-bottom: 140px;
     text-align: center;
     background: #f1f1f1;
     color: 434343;
     background-color: antiquewhite;
+}
+.testimonials h1{
+    padding-top: 20px;
 }
  .inner{
     max-width: 1200px;
@@ -181,6 +188,7 @@ input[type=text], select, textarea {
     text-align: center;
     padding-top: 30px;
     font-size: 70px;
+    color: #11a372;
 }
 .textAB h5{
     text-align: center;
@@ -237,11 +245,11 @@ main{
     color: black;
     padding: 0px 0px 20px 30px;
 }
-.column .contents{
+.col .contents{
     padding: 0px 30px;
     border-left: 2px solid #bababa;
 }
-.column .contents .box{
+.col .contents .box{
     position: relative;
     padding: 20px;
     border: 1px solid #eaeaea;
@@ -250,11 +258,15 @@ main{
     transition: all 0.4s;
     margin-bottom: 20px;
 }
-.column .contents .box:hover{
+.col .contents .box:hover{
     box-shadow: 0px 3px 12px 0px #ccc;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
+    border: none;
 }
-.column .contents .box::before{
+.col .testimonial{
+    height: 750px;
+}
+.col .contents .box::before{
     content: '';
     position: absolute;
     width: 16px;
@@ -262,8 +274,9 @@ main{
     border-radius: 50%;
     right: calc(100% + 22px);
     top: 0;
-    background-color: #11a372;
-    border: 2px solid white;
+    /* background-color: #11a372; */
+    /* border: 2px solid white; */
+    border: none;
 }
 .box h4{
     position: relative;
@@ -328,6 +341,7 @@ h1 .tools{
  padding-top: 15px;
  font-size: 30px;
  font-weight: bold;
+
  
 }
 .card-body a{
